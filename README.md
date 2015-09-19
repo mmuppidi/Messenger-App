@@ -1,4 +1,4 @@
-# Cross Platform Messenger 
+# Complete Cross Platform Group Chat System 
 (Compatible with windows, ubuntu, Android)
 
 This project is inspired by simple client server [tutorial] (http://www.dreamincode.net/forums/topic/259777-a-simple-chat-program-with-clientserver-gui-optional/)
