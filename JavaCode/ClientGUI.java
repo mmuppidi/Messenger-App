@@ -1,13 +1,19 @@
 
 import javax.swing.*;
+
+import com.mohan.chatchatmessenger.*;
 import java.awt.*;
 import java.awt.event.*;
 
 
+
+/*import com.example.robo_ace.chatchatchat.*;*/
 /*
  * The Client with its GUI
  */
 public class ClientGUI extends JFrame implements ActionListener {
+
+
 
 	private static final long serialVersionUID = 1L;
 	// will first hold "Username:", later on "Enter message"

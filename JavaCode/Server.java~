@@ -1,11 +1,13 @@
 import java.io.*;
 
-import com.example.robo_ace.chatchatchat.ChatMessage;
 import java.net.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+import com.mohan.chatchatmessenger.ChatMessage;
+
 /*
+  import com.mohan.chatchatchat.ChatMessage;
  * The server that can be run both as a console application or a GUI
  */
 public class Server {
@@ -232,7 +234,7 @@ public class Server {
 				// read a String (which is an object)
 				try {
 					
-					cm = (ChatMessage) sInput.readObject();
+					cm = (com.example.robo_ace.chatchatchat.ChatMessage) sInput.readObject();
 					display(username + " Exception reading Streams" + cm.getMessage());
 				}
 				catch (IOException e) {
