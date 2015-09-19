@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OCI-Messenger</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chat_client">ChatClientActivity</string>
+    <string name="title_activity_chat_chat_new">ChatChatNew</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
